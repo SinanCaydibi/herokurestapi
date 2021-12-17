@@ -82,7 +82,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'HerokuDb',
-        'USER': 'postgresql',
+        'USER': 'postgres',
         'PASSWORD' : '1234',
         'HOST' : 'localhost',
         'PORT': '5432'
