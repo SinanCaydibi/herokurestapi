@@ -2,7 +2,7 @@ function onload() {
     
         $.ajax({
             type: 'GET',
-            url: "http://127.0.0.1:8000/api/snake/list",
+            url: "https://herokuoksi.herokuapp.com/api/snake/list",
             //url: "http://127.0.0.1:8000/api/esp/list",
             success: function (response) {
 
