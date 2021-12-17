@@ -85,8 +85,8 @@ WSGI_APPLICATION = 'restapi.wsgi.application'
 # }
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_pyscopg2',
-        'NAME': 'HerokuDb',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'restapi',
         'USER': 'postgres',
         'PASSWORD' : '1234',
         'HOST' : 'localhost',
